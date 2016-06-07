@@ -32,7 +32,6 @@ p{
 
 }
 #box1{
-	text-align: center;
 	color:black;
 	background-color: pink;
 	border: 3px black solid;
@@ -44,7 +43,6 @@ p{
 }
 
 #box2 {
-	text-align: center;
 	color:white;
 	background-color:red; 
 	border: 3px black solid;
@@ -61,7 +59,7 @@ p{
 	border: 3px black solid;
 	width:50%;
 	position:relative;
-	top:0x;
+	top:0px;
 	left:50%;
 
 }
