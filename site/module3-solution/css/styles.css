@@ -1,22 +1,17 @@
 body{
 	background-color:white;
 	box-sizing: border-box;
-	padding: 0px;
-	margin:0px;
-
 }
 
 h1{
 	color:black;
 	font-family:Arial, sans-serif,serif;
 	text-align: center;
-	padding: 0px;
 
 }
 h2{
 	font-family:Arial,sans-serif,serif;
 	text-align: center;
-	padding: 0px;
 }
 
 p{
@@ -24,7 +19,6 @@ p{
 	margin-left: auto;
 	margin-right: auto;
 	font-family: sans-serif;
-	
 	color: black;
 	padding: 0px 15px 0px 15px;
 	text-align: justify;
@@ -37,9 +31,9 @@ p{
 	border: 3px black solid;
 	width:50%;
 	position:relative;
-	top:0px;
-	left:50%;
-
+	top: -3px;
+	margin-right:-3px;
+	margin-left: auto;
 }
 
 #box2 {
@@ -48,10 +42,9 @@ p{
 	border: 3px black solid;
 	width:50%;
 	position:relative;
-	top:0px;
-	left:50%;
-
-}
+	top:-3px;
+	margin-right:-3px;
+	margin-left: auto;}
 
 #box3{
 	color:brown;
@@ -59,22 +52,21 @@ p{
 	border: 3px black solid;
 	width:50%;
 	position:relative;
-	top:0px;
-	left:50%;
-
+	top:-3px;
+	margin-right:-3px;
+	margin-left: auto
 }
 
 .content{
 	border: 3px black solid;
-	margin: 0px;
+	margin: 10px;
 	padding: 0px;
 	background-color: #aaaaaa;
+
 }
 
 .row{
-	width:90%;
+	width:100%;
 	position: relative;
-	left: 10%;
-
-
+	
 }
