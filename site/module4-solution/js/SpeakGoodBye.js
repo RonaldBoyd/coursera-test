@@ -5,12 +5,12 @@
 // See Lecture 52, part 2
 // var byeSpeaker ={
 
-var byeSpeaker ={
-	speakWord :"Good Bye",
-	speak:function (name) {
-	console.log(this.speakWord + " " + name);
-	}
-};
+// var byeSpeaker ={
+// 	speakWord :"Good Bye",
+// 	speak:function (name) {
+// 	console.log(this.speakWord + " " + name);
+// 	}
+// };
 
 // }
 // STEP 7: Create an object, called 'byeSpeaker' to which you will attach
@@ -34,3 +34,14 @@ var byeSpeaker ={
 // STEP 9: Expose the 'byeSpeaker' object to the global scope. Name it
 // 'byeSpeaker' on the global scope as well.
 // xxxx.xxxx = byeSpeaker;
+(function(window){
+var byeSpeaker ={};
+
+var speakWord = "Good Bye";
+
+byeSpeaker.speak=function (name) {
+  console.log(speakWord + " " + name);
+}
+
+window.byeSpeaker = byeSpeaker;
+})(window);
