@@ -1,0 +1,88 @@
+body{
+	background-color:#00cc00;
+	box-sizing: border-box;
+}
+h1{ 
+	text-align: center;
+	font-family: Arial,sans-serif,serif;
+}
+h2{ 
+	font-family: Arial,sans-serif,serif;
+	text-indent: 7%;
+		
+}
+span{
+	font-family: monospace;
+}
+p{ 
+	font-family: Arial,sans-serif,serif;
+}
+h3{
+	font-family: Arial,sans-serif,serif;
+	margin:1% 2% 1% 2%;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:540px;/*720px;*/
+    width: 810px;/*1080px;*/
+
+}  
+
+}
+div{
+	margin:1% 2% 1% 2%;
+}
+button{
+	height: 40px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    color:green;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+a{
+	color:#0088ff;
+	text-decoration: none;
+
+}
+a:hover{
+	color:blue;
+}
+.indent{
+	text-indent: 40%;
+
+}
+.contact{
+	margin-right:10%;
+	text-align: right;
+	
+
+}
+.productions{
+	margin-left:10% 
+
+}
+.extra{
+    margin-left: 10%;
+}
+.skills{
+    	margin-left: 10%;
+
+}
+.education{
+    margin-left: 10%;
+
+}
+.links{
+    margin-left: 10%;
+
+}
+
+#title:hover{
+	background-color: yellow;
+}
+
