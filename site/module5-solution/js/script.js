@@ -118,9 +118,9 @@ function buildAndShowHomeHTML (categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       // 
-      var homeHtmlToInsertIntoMainPage = dc.loadMenuItems('L');
+      var homeHtmlToInsertIntoMainPage = $dc.loadMenuItems('L');
       
-      console.log(homeHtmlToInsertIntoMainPage)
+      console.log("TEST")
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that. 
