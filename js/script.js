@@ -17,9 +17,13 @@ function myFunction(){
 		} 
 
 function writeTextFile() {
+	var Subject='Contact from Website';
+	var Body=name+" "+dataemail;
+	window.open("mailto:ronboyd@hotmail.com?subject="+Subject+" &body="+Body);
 	console.log(name+ "  "+dataemail);
 		$("#title").html("Ron Boyd's Page");
 			}
+			
 
 
 }
