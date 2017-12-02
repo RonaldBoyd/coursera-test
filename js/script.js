@@ -1,4 +1,4 @@
-var htmlbutton="<button id='b1' onclick='myFunction()'>Give me your email address</button>"
+var htmlbutton="<button id='b1' onclick='myFunction()'>Please leave your contact info</button>"
 
 function myFunction(){
 
