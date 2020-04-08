@@ -1,0 +1,34 @@
+img{
+	display: block;
+
+	width:300px;
+	text-align: center;
+	}
+
+div{
+
+}
+
+div.row{
+	height:550px;
+	width:2100px;
+}
+
+div.cell {
+	display:inline-block;
+	width:310px;
+	height: 510px;	
+}
+
+p{
+	position: bottom-center;
+
+	text-align: center;
+
+}
+
+p.head {
+	font-size: 38px;
+	font-style: italic;
+	font-weight: bold;
+}
