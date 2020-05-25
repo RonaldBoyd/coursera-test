@@ -5,6 +5,16 @@ img{
 	text-align: center;
 	}
 
+img:hover{
+	width:250px;
+	margin:30px;
+	padding:10px;
+	border:none;
+	padding:1px;	
+	align-items: center;
+	box-shadow: 0 0 20px 10px rgba(37, 50, 233, 1);
+}
+
 div{
 
 }
