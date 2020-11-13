@@ -22,6 +22,9 @@ function writeTextFile() {
 	window.open("mailto:ronboyd@hotmail.com?subject="+Subject+" &body="+Body);
 	console.log(name+ "  "+dataemail);
 		$("#title").html("Ron Boyd's Page");
+	
+
+		window.location.replace("./lesson.php?name="+Body);
 			}
 			
 
