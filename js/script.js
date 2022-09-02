@@ -24,7 +24,7 @@ function writeTextFile() {
 		$("#title").html("Ron Boyd's Page");
 	
 
-		window.location.replace("./lesson.php?name="+Body);
+		//window.location.replace("./lesson.php?name="+Body);
 			}
 			
 
