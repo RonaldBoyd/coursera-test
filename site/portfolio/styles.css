@@ -17,6 +17,7 @@ h3{
 }
 img{
 	width:200px;
+	height: 250px;
 }
 body {
   font-family: 'Noto Sans', sans-serif;
@@ -66,12 +67,12 @@ h1, h2, h3, h4 {
 }
 .project-image{
 	border-radius: .5px;
-	box-shadow: 0 4px 6px 0 rgb(255,60,80,0.8);
+	box-shadow: 0 4px 6px 0 rgb(34,60,80,0.8);
 	transition: all ease-in-out .2%;
 }
 .project-image:hover{
 	filter: brightness(.75);
-	box-shadow: 0 8px 12px 0 rgb(255,60,80,0.8);
+	box-shadow: 0 8px 12px 0 rgb(34,60,80,0.8);
 }
 .project-image-wrapper:hover >h4{
 	visibility:visible;
@@ -112,11 +113,11 @@ h1, h2, h3, h4 {
 	border-radius: 50%;
 	width: 150px;
 	height: 150px;
-	box-shadow: 0 4px 6px 0 rgb(255,60,80,0.8);
+	box-shadow: 0 4px 6px 0 rgb(34,60,80,0.8);
 	transition: all ease-in-out .2%;
 }
 .profile-picture:hover{
-	box-shadow: 0 8px 12px 0 rgb(255,60,80,0.8);
+	box-shadow: 0 8px 12px 0 rgb(34,60,80,0.8);
 }
 form input, textarea{
 	padding: 5px;
